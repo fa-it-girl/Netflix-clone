@@ -1,0 +1,126 @@
+.form-background{
+  background-image: url('https://images.frandroid.com/wp-content/uploads/2022/10/netflix-octobre-contenus-2022.jpg');
+  height: 100vh;
+}
+
+.form{
+  width: 400px;
+  border: 1px solid black;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.7);
+  height: 75%;
+}
+
+.remember{
+  margin-right: 180px;
+  color: grey;
+  font-size: 15px;
+}
+
+.form h2{
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-items{
+  text-align: center;
+}
+
+input[type='email']{
+  width: 300px;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+input[type='email']::placeholder{
+  color: black;
+  font-size: 12px;
+
+}
+
+input[type='password']::placeholder{
+  color: black;
+  font-size: 12px;
+}
+
+input[type='password']{
+  width: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.submit-form{
+   width: 300px;
+   background-color: red;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   margin-top: 60px;
+}
+
+.error-message{
+  color: white;
+  font-size: 15px;
+  margin-right: 200px;
+}
+
+.new-in-net{
+  font-size: 15px;
+  margin-right: 100px;
+  margin-top: 40px;
+  color: white;
+}
+
+.new-in-net1{
+  font-size: 15px;
+
+   margin-top: 20px;
+   color: white;
+}
+
+@media only screen and (max-width: 468px){
+  .form{
+    width: 300px;
+  }
+
+  input[type='email']{
+    width: 200px;
+  }
+  input[type='password']{
+    width: 200px;
+  }
+
+  .submit-form{
+    width: 200px;
+  }
+  .extra{
+     color: white;
+     font-size: 10px;
+     text-align: center;
+  }
+
+  .extra h4{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  /* .extra .remember{
+    margin-left: 40px;
+    font-size: 10px;
+  } */
+    input[type='checkbox']{
+      margin-right: 180px;
+
+    }
+
+    .remember{
+      font-size: 15px;
+    }
+
+}

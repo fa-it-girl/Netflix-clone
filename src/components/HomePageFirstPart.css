@@ -1,0 +1,251 @@
+
+
+.firstpage ::placeholder{
+  margin-right: 10px;
+}
+
+.homepage{
+  height: 100%;
+  background-image:  url('https://images.frandroid.com/wp-content/uploads/2022/10/netflix-octobre-contenus-2022.jpg'),
+  linear-gradient(
+
+    #351abc54,
+    rgb(0,0,0));
+
+  background-size: cover !important;
+  background-position: top;
+  position: relative;
+  width: 100vw;
+
+}
+
+.homepage{
+  background-color: black !important;
+}
+
+.valid-email{
+  color: red;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+
+.firstpage{
+  color:white;
+  margin-left: 40px;
+}
+
+
+.firstpage h1{
+  font-size: 60px;
+}
+
+.firstpage h2{
+  font-size: 30px;
+}
+
+.firstpage h3{
+  font-size: 20px;
+}
+
+.firstpage input{
+  width: 400px;
+  height: 50px;
+  background-color: black;
+  opacity: 0.9;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+input[type="email"]{
+  color: white;
+  padding-left: 20px;
+}
+
+input[type="email"]::placeholder {
+  /* padding: 20px; */
+  color: white !important;
+}
+
+.firstpage button{
+  background-color: red;
+  height: 53px;
+  width: 200px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+@media screen and (min-width: 1024px){
+  .valid-email{
+    color: red;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  .homepage{
+    height: 120vh;
+    background-image: linear-gradient(
+     180deg,
+      #351abc54,
+      rgb(0,0,0)),
+      url('https://images.frandroid.com/wp-content/uploads/2022/10/netflix-octobre-contenus-2022.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+
+  .firstpage{
+    color:white;
+    margin-left: 40px;
+  }
+
+
+  .firstpage h1{
+    font-size: 60px;
+  }
+
+  .firstpage h2{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+
+  .firstpage h3{
+    font-size: 20px;
+  }
+
+  .firstpage input{
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+
+  input[type="email"]{
+    color: white;
+    padding-left: 20px;
+  }
+
+  input[type="email"]::placeholder {
+    /* padding: 20px; */
+    color: white;
+  }
+
+  .firstpage button{
+    background-color: red;
+    height: 53px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 468px){
+  .firstpage button{
+    background-color: red;
+    height: 53px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .firstpage input{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+
+  input[type="email"]{
+    color: white;
+    padding-left: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 468px) and (max-width:1024px){
+  .valid-email{
+    color: red;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  .homepage{
+    height: 120vh;
+    background-image: linear-gradient(
+     180deg,
+      #351abc54,
+      rgb(0,0,0)),
+      url('https://images.frandroid.com/wp-content/uploads/2022/10/netflix-octobre-contenus-2022.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+
+  .firstpage{
+    color:white;
+    margin-left: 40px;
+  }
+
+
+  .firstpage h1{
+    font-size: 60px;
+  }
+
+  .firstpage h2{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+
+  .firstpage h3{
+    font-size: 20px;
+  }
+
+  .firstpage input{
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+
+  input[type="email"]{
+    color: white;
+    padding-left: 20px;
+  }
+
+  input[type="email"]::placeholder {
+    /* padding: 20px; */
+    color: white;
+  }
+
+  .firstpage button{
+    background-color: red;
+    height: 53px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}

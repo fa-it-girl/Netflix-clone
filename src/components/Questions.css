@@ -1,0 +1,80 @@
+.questions{
+  color: white;
+  margin-top: 0;
+  height: 150vh;
+  background-color: black;
+  padding-top: 20px;
+}
+
+.questions h4{
+  font-size: 15px;
+}
+
+.questions div{
+  background-color: #00356B;
+}
+
+.questions h3{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 480px){
+  .questions div{
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 120px;
+    margin-bottom: 5px;
+   }
+
+   .questions h4{
+    font-size: 8px;
+  }
+
+  .answer{
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px){
+  .questions div{
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 120px;
+    margin-top: 30px;
+   }
+
+   .questions h4{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024){
+  .questions div{
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 120px;
+    margin-top: 30px;
+   }
+}
+
+@media only screen and (min-width: 1025px){
+   .questions div{
+    width: 94%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 120px;
+    margin-top: 30px;
+   }
+}

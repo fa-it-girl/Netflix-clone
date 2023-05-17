@@ -1,0 +1,58 @@
+.poster{
+  width: 250px;
+  height: 350px;
+}
+
+.title{
+  color: white;
+  margin-top: 20px;
+}
+
+.year{
+  color: white;
+  margin-top: 0;
+}
+
+.movie-list{
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+h2{
+  color: white;
+  margin-left: 20px;
+}
+
+.movies{
+  width: 250px;
+
+}
+
+@media only screen and (max-width: 468px){
+  .movie-list{
+    display: grid;
+   justify-content: center;
+  }
+
+  .popular{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  .title{
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+}
+
+@media only screen and (min-width: 468px) and (max-width:1024px){
+ .movie-list{
+   margin-left: 70px;
+
+ }
+}

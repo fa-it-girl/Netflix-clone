@@ -1,0 +1,35 @@
+.SingUpInfo{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.SingUpInfo img{
+  width: 300px;
+}
+
+.SingUpInfo button{
+  width: 400px;
+  height: 60px;
+  background-color: red;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
+}
+
+input[type='password']::placeholder{
+  color: black;
+}
+
+input[type='password']{
+  padding-left: 10px;
+}
+
+.password-validity{
+  font-size: 15px;
+  color: red;
+}
