@@ -18,3 +18,17 @@
   font-size: 30px;
   border-radius: 5px;
 }
+
+
+@media only screen and (max-width: 468px){
+  .stepOne{
+    width: 300px;
+  }
+  .stepOne input{
+    width: 300px;
+  }
+
+  .stepOne button{
+    width: 310px;
+  }
+}

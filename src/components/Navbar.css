@@ -1,11 +1,11 @@
 .navbar img{
   width: 200px;
-  margin-left: 25px;
+  margin-left: 5px;
 }
 
 .navbar button{
   float: right;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-right: 40px;
   background-color: red;
   padding: 6px 15px;

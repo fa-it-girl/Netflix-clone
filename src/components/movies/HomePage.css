@@ -1,8 +1,6 @@
 
 
 .casa-de-papel{
-  /* background-color: black;
-  width: 10%; */
   position:absolute;
   top:0;
   left:0;
@@ -59,6 +57,7 @@
 .video{
   width: 100%;
   margin-top: 0;
+  height: 600px;
 }
 
 .first-page{
@@ -67,8 +66,16 @@
 }
 
 
-@media only screen and (max-width: 468px){
+@media only screen and (max-width: 760px){
+  .casa-de-papel img{
+    display: none;
+  }
+
+  .casa-de-papel p{
+    display: none;
+  }
+
   .display-none{
-   display: none;
+    display: none;
   }
 }

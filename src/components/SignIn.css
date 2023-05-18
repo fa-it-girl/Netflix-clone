@@ -41,7 +41,7 @@ input[type='email']::placeholder{
 
 }
 
-input[type='password']::placeholder{
+.form-items input[type='password']::placeholder{
   color: black;
   font-size: 12px;
 }
@@ -83,6 +83,14 @@ input[type='password']{
    color: white;
 }
 
+.form-items input{
+  color: black;
+}
+
+.form-items input ::placeholder{
+  color: black;
+}
+
 @media only screen and (max-width: 468px){
   .form{
     width: 300px;
@@ -114,13 +122,13 @@ input[type='password']{
     margin-left: 40px;
     font-size: 10px;
   } */
-    input[type='checkbox']{
-      margin-right: 180px;
+   .checkbox{
+    display: none;
+   }
 
-    }
-
-    .remember{
-      font-size: 15px;
-    }
+   .error-message{
+     width: 100px;
+     margin-left: 50px;
+   }
 
 }

@@ -46,7 +46,10 @@ const SingIn = () => {
           {!validPassword && <p className='error-message'>Add password</p>}
           <button className='submit-form' type='submit' >Sign in</button><br />
           <div className='extra'>
-            <input type='checkbox' name='checkbox'></input><label className='remember'>Remember me</label>
+            <div className='checkbox'>
+              <input type='checkbox' name='checkbox'></input><label className='remember'>Remember me</label>
+            </div>
+
             <h4 className='new-in-net'>New to Netflix? <Link to='/'><span className='linksignup' >Sing up now</span></Link></h4>
             <p className='new-in-net1'>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
           </div>

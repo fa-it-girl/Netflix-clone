@@ -9,7 +9,7 @@ const SignUpStepTwo = () => {
     <SecondNavbar />
     <hr />
     <div className='SingUpInfo'>
-      <img src={image} alt='step1image'></img>
+      <img src={image} alt='step1image' className="img-fluid"></img>
       <p>STEP 1 OF 2</p>
       <h1>Finish setting up your account</h1>
       <p>Netflix is personalized for you. Create a password to start watching Netflix.</p>
